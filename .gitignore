@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+
+# Données volumineuses / sensibles (à ne pas verser si données réelles)
+data/processed/*.csv
+*.db
+
+# Power BI (fichiers binaires lourds, à gérer avec précaution)
+*.pbix.bak
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
